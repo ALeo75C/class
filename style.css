@@ -1,0 +1,48 @@
+body {
+  margin: 80px;
+}
+main {
+  display: flex;
+}
+div {
+  width: 500px;
+}
+h1 {
+  font-size: 46px;
+}
+h2 {
+  padding: 20px;
+}
+p {
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  flex-direction: column-reverse;
+
+  margin-top: 64px;
+  padding-left: 20px;
+}
+li {
+  list-style: none;
+}
+li + li {
+  margin-bottom: 17px;
+}
+
+.model {
+  display: inline-block;
+
+  padding: 20px 70px;
+
+  text-decoration: none;
+
+  color: white;
+  background-color: rgb(225, 0, 0);
+
+  font-size: 30px;
+  font-weight: 700;
+}
+.but {
+  cursor: pointer;
+}
